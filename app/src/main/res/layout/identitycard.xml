@@ -77,59 +77,58 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/身份证生日" />
 
-    <EditText
-        android:id="@+id/editIDName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="71dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:ems="10"
-        android:inputType="text"
+    <TextView
+        android:id="@+id/IDName"
+        android:layout_width="197dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/身份证姓名"
         app:layout_constraintTop_toBottomOf="@+id/身份证信息" />
 
-    <EditText
-        android:id="@+id/editIDGender"
-        android:layout_width="wrap_content"
-        android:layout_height="45dp"
-        android:layout_marginTop="95dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:ems="10"
+    <TextView
+        android:id="@+id/IDGender"
+        android:layout_width="196dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/身份证性别"
-        app:layout_constraintTop_toBottomOf="@+id/editIDName"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toBottomOf="@+id/IDName" />
 
-    <EditText
-        android:id="@+id/editIDBirth"
-        android:layout_width="wrap_content"
-        android:layout_height="45dp"
-        android:layout_marginTop="95dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:ems="10"
-        android:inputType="number"
+    <TextView
+        android:id="@+id/IDBirth"
+        android:layout_width="194dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/身份证生日"
-        app:layout_constraintTop_toBottomOf="@+id/editIDGender" />
+        app:layout_constraintTop_toBottomOf="@+id/IDGender" />
 
-    <EditText
-        android:id="@+id/editIDNumber"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="95dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:ems="10"
-        android:inputType="number"
+    <TextView
+        android:id="@+id/IDNumber"
+        android:layout_width="200dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/身份证号码"
-        app:layout_constraintTop_toBottomOf="@+id/editIDBirth" />
+        app:layout_constraintTop_toBottomOf="@+id/IDBirth" />
 </androidx.constraintlayout.widget.ConstraintLayout>
