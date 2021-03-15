@@ -73,7 +73,8 @@ public class DBService {
         }
     }
 
-    public static void closeAll(Statement stmt, Connection conn, ResultSet rs) {
+    public static void closeAll(Statement stmt, Connection conn, ResultSet rs)
+    {
         if (stmt != null){
             try {
                 stmt.close();
